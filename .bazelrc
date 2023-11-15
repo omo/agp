@@ -1,0 +1,2 @@
+# https://bazel.build/docs/android-ndk#cclibrary-android
+build --host_crosstool_top=@bazel_tools//tools/cpp:toolchain --crosstool_top=@androidndk//:default_crosstool --cpu=arm64-v8a
